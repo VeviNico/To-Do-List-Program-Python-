@@ -1,0 +1,3 @@
+[x] Gi en stor klem til Line og Maxine
+[x] Jeg har faktisk klart å lage et To Do List Program
+[x] hei
