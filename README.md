@@ -1,33 +1,53 @@
-# Nicolaj's To-Do List Project
+# Nicolaj's To-Do List Project 🗒️
 
-This is a simple, versioned To-Do List app built in Python, evolving from a basic text-based interface to a modern GUI using `customtkinter`.
-
-Project Overview
-
-This project shows the evolution of a Python-based productivity tool, starting with CLI versions and ending in a dark-themed, scrollable GUI. The purpose is to help users manage their daily tasks efficiently.
-
-### Versions:
-
-- **v0.1**: Basic terminal-based task manager (view, add, remove).
-- **v0.2**: Added saving and loading from a `.txt` file.
-- **v0.3**: Support for marking tasks as done or not done.
-- **v0.4**: Introduced a Tkinter GUI. Tasks can be added with Enter key and toggled by double-clicking.
-- **v0.5**: Upgraded to `customtkinter` for dark mode, checkboxes, scrollable UI, and real-time saving.
+This project is a versioned Python-based To-Do List application, evolving from simple terminal interaction to a user-friendly GUI using `tkinter`. It saves tasks to text files and allows task management with completion tracking.
 
 ---
 
-# Features (v0.5)
-- Add tasks via input or button
-- Scrollable task view
-- Checkboxes to mark tasks as done
-- Persistent storage using a text file
-- Dark theme using `customtkinter`
+## Overview
+
+The project demonstrates progressive development, starting from a basic text-based system and ending with a fully working GUI using only standard libraries.
 
 ---
 
-# How to Run
+## Versions
 
-1. Make sure you have Python 3.10+ installed.
-2. Install `customtkinter` (if running v0.5):
-   ```bash
-   pip install customtkinter
+- **v0.1**: 
+  - Basic CLI (command line interface)
+  - View, add, and remove tasks
+
+- **v0.2**: 
+  - Tasks are now saved and loaded from a `.txt` file
+
+- **v0.3**: 
+  - Tasks can be marked as `[x] done` or `[ ] not done`
+
+- **v0.4**: 
+  - First version using `tkinter` GUI
+  - Tasks added by button or pressing Enter
+  - Double-click a task to mark it done/undone or delete
+  - File storage preserved between sessions
+
+- **v0.5**: 
+  - Final GUI version (now `.pyw` so it runs without console)
+  - Scrollable task list
+  - Checkbox interface
+  - No external libraries required
+  - Saves tasks with `[x]` or `[ ]` and keeps their state
+
+---
+
+## Features (v0.5)
+
+- ✅ Add new tasks with Enter or button
+- ✅ Checkbox toggles for done/undone
+- ✅ Scrollable list using only `tkinter`
+- ✅ Saves to file: `To-Do-List Version 0.5.txt`
+- ✅ `.pyw` file hides terminal when opened
+
+---
+
+## How to Run
+
+1. Make sure Python 3.x is installed
+2. Double-click:
