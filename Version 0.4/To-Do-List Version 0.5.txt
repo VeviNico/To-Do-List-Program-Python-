@@ -1,0 +1,5 @@
+# No external packages needed
+# Uses checkboxes with saved status [x] or [ ]
+# Clean and scrollable GUI
+# Runs on any machine with Python
+# Turned the .py with .pyw so it runs without the terminal in background
