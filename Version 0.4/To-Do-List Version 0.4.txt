@@ -1,2 +1,0 @@
-[x] Learn how to press enter when adding task
-[ ] let it save for later for me to get back to it 
